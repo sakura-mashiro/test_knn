@@ -8,7 +8,7 @@ struct node{ // 一个完整的训练数据，包括分类和特征向量
 }train[71];    //训练数据
 node test[31]; //测试数据
 /*
-见鬼，用vector就内存不够了
+用vector就内存不够了
 terminate called after throwing an instance of 'std::bad_alloc'
   what():  std::bad_alloc
 还是数组吧，数据量不大
